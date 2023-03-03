@@ -22,7 +22,7 @@
             <h3>Let's do this!</h3>
             <form id="sign-up">
                 <label for="first_name">First Name
-                    <input type="text" name="first_name" id="first_name" />
+                    <input type="text" name="first_name" id="first_name" required />
                 </label>
 
                 <label for="last_name">Last Name
@@ -38,11 +38,11 @@
                 </label>
 
                 <label for="password">Password
-                    <input type="password" name="pwd" id="pwd" />
+                    <input type="password" name="pwd" id="pwd" required min="8" />
                 </label>
 
                 <label for="last_name">Confirm Password
-                    <input type="password" name="conpwd" id="conpwd" />
+                    <input type="password" name="conpwd" id="conpwd" required />
                 </label>
             </form>
         </div>

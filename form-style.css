@@ -130,6 +130,14 @@ input {
     border-radius: 5px;
 }
 
+input:invalid {
+    border: 1px solid rgb(189, 107, 107);
+}
+
+input:valid {
+    border: 1px solid rgb(202, 197, 197);
+  }
+
 button {
     width: 110px;
     height: 35px;
