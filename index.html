@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sign Up Form</title>
+
+    <link rel="stylesheet" href="form-style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+        <h2> <span> 🔪</span> Ghostbook</h2>
+        <div class="credit">Photo via <i>Dimension Films</i></div>
+    </div>
+
+    <div id="main">
+        <p class="header">The perfect platform to share your favorite scary movie. 
+            But never, ever, ever under any circumstances say, "You'll be right back." 
+        Sign up now to get started. <br />
+        We promise you'll have a <i>killer</i> time.
+        </p>
+        <div class="form-info">
+            <h3>Let's do this!</h3>
+            <form id="sign-up">
+                <label for="first_name">First Name
+                    <input type="text" name="first_name" id="first_name" />
+                </label>
+
+                <label for="last_name">Last Name
+                    <input type="text" name="last_name" id="last_name" />
+                </label>
+
+                <label for="email">Email
+                    <input type="email" name="email" id="email" placeholder='loomis@example.com' required />
+                </label>
+
+                <label for="phone">Phone Number
+                    <input type="tel" name="phone" id="phone" required />
+                </label>
+
+                <label for="password">Password
+                    <input type="password" name="pwd" id="pwd" />
+                </label>
+
+                <label for="last_name">Confirm Password
+                    <input type="password" name="conpwd" id="conpwd" />
+                </label>
+            </form>
+        </div>
+        <button type="submit" form="sign-up">Create Account</button>
+        <p class="footer">Already have an account? <a href="https://www.youtube.com/watch?v=Sn5SkCvPEYo">Log in</a></p>
+    </div>    
+  </body>
